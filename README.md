@@ -1,2 +1,2 @@
 # rock-paper-scissors
-This is a rock-paper-scissors game done in JavaScript
+This is a rock-paper-scissors-console game done in JavaScript for theOdinProject program
