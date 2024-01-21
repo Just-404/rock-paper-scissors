@@ -7,24 +7,62 @@ html, body {
 body{
     background-color: rgb(46, 45, 43);
     display: flex;
-    padding: 10px;
     align-items: center;
     justify-content: center;
     margin: 0;
+    padding: 0;
+   
 }
 
 img {
     height: 300px;
 }
+
 .content{
-  /*background-color: red;*/
-    border: 6px solid black;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.output{
+.up{
+    width: 100%;
+}
+.choose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+   
+}
+.choose div{
+    color: #dfed37; 
+    background-color: rgb(17, 17, 17);
+    width: 100%;
+    height: 40px;
     text-align: center;
-    font-size: 80px;
-    padding: 0;
-    margin: 0;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.choose img{
+    background-color: white;
+    border-radius: 10px;
+   
+}
+
+.middle{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 30px;
+    padding: 15px 0;
+    margin: 1px;
+    background-color: black;
+    width: 100%;
     /* if win
     color: rgba(255, 255, 0, 0.808);
     border-bottom: 4px solid yellow;
@@ -34,34 +72,18 @@ img {
     border-bottom: 4px solid red;
     */
 }
-.options{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.choose{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-   
-}
-.choose div{
-    color: #003cff;
-    background-color: rgb(17, 17, 17);
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 40px;
-    margin-bottom: 30px;
+.middle button{
+    font-size: 20px;
+    width: 80px;
+    color: #dfed37;
+    background-color: black;
+    border: 2px thick gray;
+    margin-right: 70%;
 }
 
-.choose img{
-    background-color: white;
-    border-radius: 10px;
-   
+
+.player-score, .computer-score{
+    color: white;
 }
 .down{
     display: flex;
@@ -76,7 +98,11 @@ img {
     width: 200px;
     box-shadow: 10px 10px rgba(0, 0, 0, 0.534);
 }
-.down div img{
+.down div input{
     height: auto;
     width: 200px;
+}
+
+input:hover{
+    opacity: 0.6;
 }
