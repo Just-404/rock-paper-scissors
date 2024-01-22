@@ -56,7 +56,7 @@ img {
 
 .middle{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: white;
     font-size: 30px;
     padding: 15px 0;
@@ -78,7 +78,7 @@ img {
     color: #dfed37;
     background-color: black;
     border: 2px thick gray;
-    margin-right: 70%;
+
 }
 
 
@@ -91,6 +91,10 @@ img {
     justify-content: space-around;
     margin: 30px;
     width: 900px;
+}
+
+.hidden{
+    display: none;
 }
 .down div{
     border: 4px solid black;
